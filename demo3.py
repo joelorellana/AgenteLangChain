@@ -275,7 +275,7 @@ class AgenteMultiAPI:
 
         # ✅ AGREGADO: Configuración del modelo LLM con LangChain
         self.llm = ChatGoogleGenerativeAI(
-            model="gemini-2.5-pro",  # ✅ MODIFICADO: Usar modelo más reciente
+            model="gemini-1.5-flash",  # ✅ CORREGIDO: Modelo disponible
             google_api_key = GOOGLE_API_KEY,
             temperature=0.7  # ✅ AGREGADO: Controlar creatividad de respuestas
         )
